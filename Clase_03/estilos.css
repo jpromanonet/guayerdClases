@@ -1,2 +1,9 @@
 /* Esto es una hoja de estilos */
 
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: green;
+}
