@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 03</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br/>
+        <br>
+        <label for="lname">Apellido:</label>
+        <input type="text" id="lname" name="lname"><br/>
+        <!-- Ejemplos de Radio buttons -->
+        <p>Vamos a elegir nuestro lenguaje favorito</p>
+        <input type="radio" id="html" name="lenguaje_fav" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="js" name="lenguaje_fav" value="HTML">
+        <label for="js">JS</label>
+        <br>
+        <input type="radio" id="css" name="lenguaje_fav" value="HTML">
+        <label for="css">CSS</label>
+        <!-- Vamos a ver si nos gusta HTML o no-->
+        <p>¿Nos gusta HTML?</p>
+        <input type="checkbox" id="si" name="htmlSi" value="Me gusta HTML">
+        <label for="si">SI</label>
+        <br>
+        <input type="checkbox" id="no" name="htmlNo" value="No me gusta HTML">
+        <label for="no">NO</label>
+        <br>
+        <br>
+        <!-- Boton de enviar -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
