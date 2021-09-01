@@ -2,8 +2,9 @@
 
 body {
     background-color: aliceblue;
+    text-align: center;
 }
 
-h1 {
+.tituloVerde {
     color: green;
 }
