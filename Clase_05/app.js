@@ -4,5 +4,9 @@ function primerBoton(){
 }
 
 function segundoBoton(){
-    window.confirm('¿Te gusta JS?');
+    window.confirm("¿Te gusta JS?");
+}
+
+function tercerBoton(){
+    window.prompt("¿Como es tu nombre?");
 }
