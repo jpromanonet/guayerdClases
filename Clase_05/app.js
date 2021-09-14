@@ -1,3 +1,6 @@
+// Bienvenida
+alert("Bievenide!! =)");
+
 // Vamos a llamar a este alert
 function primerBoton(){
     alert("Hiciste click en el primer boton");
