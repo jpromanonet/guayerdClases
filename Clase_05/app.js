@@ -1,7 +1,8 @@
-// Esto es un comentario
-console.log("Esto es una prueba")
-console.log("Otra prueba")
+// Vamos a crear un alert
+//alert("¡¡¡Holaaa!!!");
 
-// Esto es un alert
-//alert("Esto es una alerta")
-console.log("Pasaste por la alerta")
+// Vamos a llamar a este alert
+function primerBoton(){
+    alert("Hiciste click en el primer boton");
+}
+
