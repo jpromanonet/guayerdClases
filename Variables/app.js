@@ -12,7 +12,7 @@
 var primerNumero = 15000;
 var segundoNumero = 545646;
 var resultado = primerNumero + segundoNumero;
-console.log("Tu resultado es: " + resultado)
+console.log("Tu resultado es: " + resultado);
 
 // Nombre
 var primerNombre = "Carlos";
