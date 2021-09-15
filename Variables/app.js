@@ -22,18 +22,23 @@ console.log(nombreCompleto);
 
 // Tipos de datos
 /*
+
 Numericos: INT (enteros) = 1 o FLOAT (flotantes) = 1.5,
 Texto: Strings (Alfanumericas) = "Esto es un texto", "152546",
+
 */
 
 // Operadores Aritmeticos
 /*
+
 + = suma
 - = resta
 / = division
 * = multiplicación
 
 /// Operadores extendidos
+
 % = resto
 %% = modulo
+
 */
