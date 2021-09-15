@@ -42,3 +42,16 @@ Texto: Strings (Alfanumericas) = "Esto es un texto", "152546",
 %% = modulo
 
 */
+
+// Funcion Math
+var numeroExperimental = 10;
+console.log(Math.pow(numeroExperimental, 3));
+console.log(Math.round(1.77777777777));
+console.log(Math.round(Math.random()*1000));
+
+// Numeros aleatorios limitados
+function numeroAleatorioVectorizado(min, max){
+    console.log(Math.round((Math.random() * (max - min) + min)))
+}
+
+numeroAleatorioVectorizado(10, 100);
