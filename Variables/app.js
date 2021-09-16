@@ -9,10 +9,10 @@
 // const otraFormaDeVariable; // scope mixto (global y local segun donde se declare)
 
 // Suma
-var primerNumero = "15000"; 
-var segundoNumero = "545646";
-var resultado = parseInt(primerNumero) * parseInt(segundoNumero);
-console.log("Tu resultado es: " + resultado);
+var primerNumero = prompt("Ingresa el primer numero: "); 
+var segundoNumero = prompt("Ingresa el segundo numero: ");
+var resultado = parseInt(primerNumero) + parseInt(segundoNumero);
+alert("Tu resultado es: " + resultado);
 
 // Nombre
 var primerNombre = "Carlos";
@@ -20,12 +20,21 @@ var segundoNombre = "German";
 var nombreCompleto = primerNombre + " " + segundoNombre;
 console.log(nombreCompleto);
 
+miPrimerBooleano = True; // Esto significa que esta variable es igual a 
+
 // Tipos de datos
 /*
 
-Numericos: INT (enteros) = 1 o FLOAT (flotantes) = 1.5,
-Texto: Strings (Alfanumericas) = "Esto es un texto", "152546",
+Numericos: 
+    - INT (enteros) = 1
+    - FLOAT (flotantes) = 1.5,
 
+Texto: 
+    Strings (Alfanumericas) = "Esto es un texto", "152546"
+
+Booleanas:
+    - 0 o 1
+    - True or False
 */
 
 // Operadores Aritmeticos
