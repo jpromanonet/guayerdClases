@@ -20,7 +20,8 @@ var segundoNombre = "German";
 var nombreCompleto = primerNombre + " " + segundoNombre;
 console.log(nombreCompleto);
 
-miPrimerBooleano = True; // Esto significa que esta variable es igual a 
+miPrimerBooleano = True; // Esto significa que esta variable es igual a 1
+otroBooleano = False; // Esto significa que es igual 0
 
 // Tipos de datos
 /*
