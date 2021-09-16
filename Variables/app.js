@@ -1,7 +1,7 @@
 // Variables
 
 // La vieja forma = scope global
-//var numerosEnteros;
+// var numerosEnteros;
 
 // Las nuevas formas de declarar variables (ES6)
 
@@ -9,9 +9,9 @@
 // const otraFormaDeVariable; // scope mixto (global y local segun donde se declare)
 
 // Suma
-var primerNumero = 15000;
-var segundoNumero = 545646;
-var resultado = primerNumero * segundoNumero;
+var primerNumero = "15000"; 
+var segundoNumero = "545646";
+var resultado = parseInt(primerNumero) * parseInt(segundoNumero);
 console.log("Tu resultado es: " + resultado);
 
 // Nombre
