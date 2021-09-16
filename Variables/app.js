@@ -1,7 +1,7 @@
 // Variables
 
 // La vieja forma = scope global
-// var numerosEnteros;
+//var numerosEnteros;
 
 // Las nuevas formas de declarar variables (ES6)
 
