@@ -6,7 +6,7 @@ edad = prompt('¿Que edad tenes?');
 if(parseInt(edad) >= 18){
     alert("Sos mayor de edad");
     let franjaEtaria = prompt("¿Sos mayor de 30?");
-    if(parseInt(franjaEtaria) >= 30){
+    if(franjaEtaria == "Si"){
         alert("Sos un millenial");
     } else {
         alert("Sos generacion Z");
