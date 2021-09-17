@@ -34,4 +34,5 @@ if(parseInt(edad) >= 18 && parseInt(edad) <= 30 || siFuma == "Si"){
 || == OR == En español significa "O"
 < o >
 !== significa distinto de
+
 */
