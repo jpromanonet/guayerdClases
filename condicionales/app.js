@@ -20,3 +20,14 @@ if(parseInt(edad) >= 18){
         alert("Que bajon, yo esperaba a Alexis ¬¬");
     }
 }
+
+/*
+= | Un igual se utiliza y solo sirve para asignar valores a las variables
+== | Dos iguales se utiliza para comparar una variable a un valor N
+=== | Tres iguales se utiliza para comparar una variable a un valor N y verificar que sean estrictamente iguales
+
+¿Que significa esto?
+
+"Hola" === "hola" | Esto NO ES estrictamente igual, porque una empieza con mayuscula y la otra no
+"Hola" == "hola" | Para el IF eso es igual, porque no tiene el modo estricto.
+*/
