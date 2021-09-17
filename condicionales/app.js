@@ -1,18 +1,14 @@
 let edad;
 
 edad = prompt('¿Que edad tenes?');
+siFuma = prompt('¿Sos fumador activo?');
 
 // ESTO ES UNA CONDICION
-if(parseInt(edad) >= 18){
+if(parseInt(edad) >= 18 && parseInt(edad) <= 30 || siFuma == "Si"){
     alert("Sos mayor de edad");
-    let franjaEtaria = prompt("¿Sos mayor de 30?");
-    if(franjaEtaria == "Si"){
-        alert("Sos un millenial");
-    } else {
-        alert("Sos generacion Z");
-    }
+    alert("Sos un millenial");
 } else {
-    alert("No sos mayor de edad");
+    alert("No sos un Millenial");
     let quienSos = prompt("¿Sos Alexis?")
     if(quienSos == "Si"){
         alert("Anda a mirar Backyarddigan");
@@ -32,4 +28,10 @@ if(parseInt(edad) >= 18){
 "Hola" === "hola" | Esto NO ES estrictamente igual, porque una empieza con mayuscula y la otra no
 "Hola" == "hola" | Para el IF eso es igual, porque no tiene el modo estricto.
 
+-> Operadores Logicos <-
+
+&& == AND == En español significa "Y"
+|| == OR == En español significa "O"
+< o >
+!== significa distinto de
 */
