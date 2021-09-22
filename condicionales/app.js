@@ -1,20 +1,24 @@
 let edad;
+let siFuma;
 
 edad = prompt('¿Que edad tenes?');
-siFuma = prompt('¿Sos fumador activo?');
+siFuma = confirm('¿Sos fumador?');
 
 // ESTO ES UNA CONDICION
-if(parseInt(edad) >= 18 && parseInt(edad) <= 30 || siFuma == "Si"){
+if(parseInt(edad) >= 18 && siFuma === true ){
     alert("Sos mayor de edad");
-    alert("Sos un millenial");
+    alert("Fumar es perjudicial para la salud")
+} else if(parseInt(edad) >= 18  && siFuma === false ) {
+    alert("Sos mayor de edad");
+    alert("Que bien! porque fumar hace mal");
 } else {
     alert("No sos un Millenial");
     let quienSos = prompt("¿Sos Alexis?")
-    if(quienSos == "Si"){
-        alert("Anda a mirar Backyarddigan");
-    } else {
-        alert("Que bajon, yo esperaba a Alexis ¬¬");
-    }
+        if(quienSos == "Si"){
+            alert("Anda a mirar Backyarddigan");
+        } else {
+            alert("Que bajon, yo esperaba a Alexis ¬¬");
+        }
 }
 
 /*
