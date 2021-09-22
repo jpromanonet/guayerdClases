@@ -28,9 +28,16 @@ variable++ = el simbolo ++ a la derecha, en JS suma un entero a un valor numeric
 let texto = "";
 let i = 0;
 
-while(i < 10){
+/*while(i < 10){
     texto += "El numero es: " + i + "\n";
     alert(texto);
     i++
-}
+}*/
+
+do {
+    texto += "El numero es: " + i + "\n";
+    alert(texto);
+    i++;
+} while(i < 10);
+
 
