@@ -37,7 +37,7 @@ Booleanas:
     - 0 o 1
     - True or False
 
-Nan = Not a Number (No es un numero)
+NaN = Not a Number (No es un numero)
 */
 
 // Operadores Aritmeticos
