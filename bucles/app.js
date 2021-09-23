@@ -8,20 +8,20 @@ alert("Esto el alert 5");*/
 // Hacemos lo mismo pero usando un FOR
 
 // Usamos VAR
+
 /*
 for(var i = 1; i < 6; i++) {
     alert("Esto es el alert " + i);
 }*/
 
 // Usamos LET
+
 /*for(let i = 0; i < 6 ; i++){
     alert("Esto es el alert " + i);
 }*/
 
 /*
-
 variable++ = el simbolo ++ a la derecha, en JS suma un entero a un valor numerico(1)
-
 */
 
 // Bucle WHILE
