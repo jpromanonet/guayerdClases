@@ -39,5 +39,3 @@ do {
     alert(texto);
     i++;
 } while(i < 10);
-
-
