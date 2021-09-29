@@ -69,3 +69,5 @@ frutas.push("Quinotos");
 frutas.push("Lima");
 
 console.log(frutas)
+
+// Eliminando elementos de un array
