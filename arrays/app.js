@@ -71,3 +71,35 @@ frutas.push("Lima");
 console.log(frutas)
 
 // Eliminando elementos de un array
+// array.pop("nombre del elemento a eliminar")
+frutas.pop("Platano");
+console.log(frutas)
+
+// PUSH sirve para sumar elementos al final del array
+// POP sirve para eliminar elementos.
+
+frutas.shift();
+console.log(frutas)
+frutas.unshift("Naranja")
+console.log(frutas)
+
+// SHIFT sirve para eliminar elementos al principio de un array
+// UNSHIFT sirve para agregar elemento al principio de un array
+
+// Si queremos borrar un elemento en cualquier posicion del array usamos DELETE
+// delete nombrearray[posicion que quiero eliminar]
+
+console.log(frutas[23]);
+delete frutas[23];
+console.log(frutas[23]);
+
+// El metodo splice se utiliza para eliminar datos de un array por posiciones
+// SPLICE "separa en fetas" un Array
+
+// EN JS todos los strings son ARRAYS y pueden ser tratados como tal.
+let ejemplo = "Esto es un array"
+console.log(ejemplo[2]);
+
+frutas.splice(0, 1);
+console.log(frutas)
+
