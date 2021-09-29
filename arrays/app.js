@@ -106,3 +106,13 @@ frutas.splice(0, 1);
 console.log(frutas)
 
 // Como fusionar Arrays =)
+const verduras = ["Lechuga", "Papa", "Rucula", "Cebolla", "Cebolla de verdeo", "Puerro", "Morron", "Repollo", "Kale", "Perejil", "Ajo", "Acelga", "Espinaca", "Mandioca", "Batata", "Zanahoria", "Radicheta", "Coliflor", "Brocoli", "Zapallo anco", "Zuccini", "Calabaza", "Pepino", "Zapallito", "Remolacha", "Choclo", "esparragos", "calabacin", "cebolla morada", "boñiato", "Nabo", "Albahaca"]
+
+// El metodo concat sirve para fusionar o mergear dos o mas arrays
+// const variable = array.concat(array a fusionar)
+
+//const todosLosArrays = frutas.concat(verduras);
+//console.log(todosLosArrays);
+
+const todosLosArrays = frutas.concat(verduras, bicicletas, autos, autos2)
+console.log(todosLosArrays)
