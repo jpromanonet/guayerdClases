@@ -100,6 +100,8 @@ console.log(frutas[23]);
 let ejemplo = "Esto es un array"
 console.log(ejemplo[2]);
 
+console.log(frutas[0][0])
+
 frutas.splice(0, 1);
 console.log(frutas)
 
