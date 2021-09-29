@@ -105,4 +105,4 @@ console.log(frutas[0][0])
 frutas.splice(0, 1);
 console.log(frutas)
 
-// 
+// Como fusionar Arrays =)
