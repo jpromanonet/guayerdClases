@@ -49,8 +49,18 @@ const arrayDeCosas = [];
 arrayDeCosas[0] = Date.now;
 arrayDeCosas[1] = gato;
 arrayDeCosas[2] = bicicletas
-arrayDeCosas[3] = autos2[1]
+arrayDeCosas[3] = autos2;
 
 console.log(arrayDeCosas)
+console.log(arrayDeCosas[3][1])
 
-// La extensión de un array
+// El largo de un array
+
+const frutas = ["Naranjas", "Mandarinas", "Manzanas", "Bananas", "Frutillas", "Durazno", "Kiwi", "Sandia", "Melon", "Pera", "Pelon", "Uva", "Damasco", "Papaya", "Moras", "Frambuesa", "Fresas", "Tomate", "Maracuya", "Cerezas", "Granada","Higo", "Palta", "Mispero", "Sauco", "Nuez", "Almendra", "Arandanos", "Mango", "Pomelo", "Limon", "Membrillo", "Coco", "Cacao", "Zapallo", "Berenjena", "Piña", "Anana", "Ciruelas", "Castaña de Caju", "Platano"];
+
+console.log(frutas.length);
+
+// Agregar elementos a un array
+frutas.push("Pistaccio");
+// array.push("Agrego un valor al final del array");
+console.log(frutas); 
