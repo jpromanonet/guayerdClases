@@ -64,3 +64,8 @@ console.log(frutas.length);
 frutas.push("Pistaccio");
 // array.push("Agrego un valor al final del array");
 console.log(frutas); 
+frutas.push("Sambayon");
+frutas.push("Quinotos");
+frutas.push("Lima");
+
+console.log(frutas)
