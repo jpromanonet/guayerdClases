@@ -189,4 +189,7 @@ const autosIncomprables = [
 autosIncomprables.sort(function(a, b){return b.anio - a.anio});
 console.log(autosIncomprables);
 
-// 
+// El argumento map que sirve para matchear resultados de un array y construir un array nuevo
+const bases = [4,9,16,40]
+const potencias = bases.map(Math.pow)
+console.log(potencias[3])
