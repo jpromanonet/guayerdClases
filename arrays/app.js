@@ -116,3 +116,9 @@ const verduras = ["Lechuga", "Papa", "Rucula", "Cebolla", "Cebolla de verdeo", "
 
 const todosLosArrays = frutas.concat(verduras, bicicletas, autos, autos2)
 console.log(todosLosArrays)
+
+// Como ordenar arrays alfabeticamente
+
+const comidaSegunJuan = frutas.concat(verduras)
+comidaSegunJuan.sort()
+console.log(comidaSegunJuan)
