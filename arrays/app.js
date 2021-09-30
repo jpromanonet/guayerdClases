@@ -135,3 +135,7 @@ console.log(edades);
 // Revertimiendo numerico
 edades.reverse(function(a, b){return a - b});
 console.log(edades)
+
+// El metodo Fisher Yates =)
+const fisherYates = [20, 20, 22, 28, 50, 32, 27, 35, 20, 20, 32]
+
