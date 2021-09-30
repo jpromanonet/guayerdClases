@@ -139,6 +139,7 @@ console.log(edades)
 // El metodo Fisher Yates =)
 const fisherYates = [20, 20, 22, 28, 50, 100, 120, 333, 666, 777, 888, 12, 763, 7891, 75, 99, 45, 32, 27, 35, 20, 20, 32]
 
+/*
 for (let i = fisherYates.length -1; i > 0; i--){
     // el metodo floor en Math se utiliza para redondear numeros flotante a enteros
     let j = Math.floor(Math.random() * i);
@@ -148,5 +149,14 @@ for (let i = fisherYates.length -1; i > 0; i--){
 }
 
 console.log(fisherYates)
+*/
 
-//
+// Encontrar el valor mas alto y mas bajo de un array
+
+// El valor minimo dentro de un array
+fisherYates.sort(function(a, b){return a -b});
+console.log(fisherYates[0]);
+
+// El valor maximo de un array
+fisherYates.sort(function(a, b){return b -a});
+console.log(fisherYates[0]);
