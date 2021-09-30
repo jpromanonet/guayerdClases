@@ -176,3 +176,15 @@ function arrayMin(arr){
 }
 
 console.log(arrayMin(fisherYates));
+
+// Ordenando propiedades de un array
+const autosIncomprables = [
+    {type: "Ferrari", anio: "2010"},
+    {type: "Lamborghini", anio: "2003"},
+    {type: "Porsche S 911 Carrera", anio:"1968"}
+]
+
+// Como ordenar las propiedades de un array
+
+autosIncomprables.sort(function(a, b){return b.anio - a.anio});
+console.log(autosIncomprables);
