@@ -137,5 +137,16 @@ edades.reverse(function(a, b){return a - b});
 console.log(edades)
 
 // El metodo Fisher Yates =)
-const fisherYates = [20, 20, 22, 28, 50, 32, 27, 35, 20, 20, 32]
+const fisherYates = [20, 20, 22, 28, 50, 100, 120, 333, 666, 777, 888, 12, 763, 7891, 75, 99, 45, 32, 27, 35, 20, 20, 32]
 
+for (let i = fisherYates.length -1; i > 0; i--){
+    // el metodo floor en Math se utiliza para redondear numeros flotante a enteros
+    let j = Math.floor(Math.random() * i);
+    let k = fisherYates[i]
+    fisherYates[i] = fisherYates[j]
+    fisherYates[j] = k
+}
+
+console.log(fisherYates)
+
+//
