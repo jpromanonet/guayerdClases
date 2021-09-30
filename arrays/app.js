@@ -120,5 +120,18 @@ console.log(todosLosArrays)
 // Como ordenar arrays alfabeticamente
 
 const comidaSegunJuan = frutas.concat(verduras)
-comidaSegunJuan.sort()
+comidaSegunJuan.sort();
 console.log(comidaSegunJuan)
+
+// Como revertir un array
+comidaSegunJuan.reverse();
+console.log(comidaSegunJuan)
+
+// Ordenamiento numerico
+const edades = [20, 20, 22, 28, 50, 32, 27, 35, 20, 20, 32]
+edades.sort(function(a, b){return a - b});
+console.log(edades);
+
+// Revertimiendo numerico
+edades.reverse(function(a, b){return a - b});
+console.log(edades)
