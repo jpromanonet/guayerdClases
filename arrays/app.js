@@ -154,9 +154,25 @@ console.log(fisherYates)
 // Encontrar el valor mas alto y mas bajo de un array
 
 // El valor minimo dentro de un array
-fisherYates.sort(function(a, b){return a -b});
-console.log(fisherYates[0]);
+// fisherYates.sort(function(a, b){return a -b});
+// console.log(fisherYates[0]);
 
 // El valor maximo de un array
-fisherYates.sort(function(a, b){return b -a});
-console.log(fisherYates[0]);
+// fisherYates.sort(function(a, b){return b -a});
+// console.log(fisherYates[0]);
+
+// Metodos alternativos para encontrar el valor maximo de un Array =)
+
+// Una funcion para traer el valor mas grande un array
+function arrayMax(arr){
+    return Math.max.apply(null, arr)
+}
+
+console.log(arrayMax(fisherYates))
+
+// Encontrando el valor minimo de un array con una funcion
+function arrayMin(arr){
+    return Math.min.apply(null, arr)
+}
+
+console.log(arrayMin(fisherYates));
