@@ -54,3 +54,20 @@ function saludar(){
 
 let hola = saludar();
 
+// Arrow functions o "Funciones Flechas"
+
+// ES5 (forma vieja de declarar una función)
+var x = function(x, y){
+    return x * y;
+}
+
+// ES6 (Forma nueva de declarar una funcion o arrow functions)
+const x = (x, y) => x * y;
+
+// Argumentos y Parametros
+
+/* 
+1. Los parametros NUNCA especifican su tipo de dato
+2. No tienen que intentar validar el tipo de dato de un parametro
+3. Tener en cuenta que las funciones no checkean si se paso el parametro, cuando declaramos un parametro pero no utilizamos, al ejecutar la funcion, nos va a dar un error conocido como "missing argument" o "argumento perdido" en español.
+*/
