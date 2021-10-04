@@ -46,3 +46,11 @@ function potencia(a){
     let x = "Bienvenida Romina!";
     alert(x);
 })();
+
+// Funciones pueden ser utilizadas como valores (es una forma más facil de auto-invocar funciones)
+function saludar(){
+    alert("Buenas buenas =)");
+}
+
+let hola = saludar();
+
