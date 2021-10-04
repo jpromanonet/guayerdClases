@@ -34,3 +34,15 @@ potencia(5);
 function potencia(a){
     console.log(a * a);
 }
+
+// *** Funciones autoinvocadas ***
+// 1. Abris parentesis 
+// 2. Declaras function sin nombre con parentesis
+// 3. abris llaves al lado de function sin nombre
+// 4. Entre las llaves escribis tu codigo
+// 5. Despues del ultimo parentesis que encierra a function, el codigo y las llaves, abris parentesis () y pones ; y se autoinvoca
+
+(function () {
+    let x = "Bienvenida Romina!";
+    alert(x);
+})();
