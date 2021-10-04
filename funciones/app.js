@@ -64,6 +64,11 @@ var x = function(x, y){
 // ES6 (Forma nueva de declarar una funcion o arrow functions)
 const x = (x, y) => x * y;
 
+// Tambien las arrow functions pueden llevar llaves.
+const x = (x, y) => {
+    alert(x * y)
+};
+
 // Argumentos y Parametros
 
 /* 
