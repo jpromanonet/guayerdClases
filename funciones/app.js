@@ -1,7 +1,7 @@
 // Hay 2 formas de declarar una función
 
 // Definiendo una funcion (No se ejecuta inmediatamente)
-/*function multiplicacion(a, b) {
+function multiplicacion(a, b) {
     let c = a * b;
     alert(c);
     c = a + b;
@@ -87,7 +87,7 @@ const x = (x, y) => {
 // El codigo es ejecutado cuando invocamos a la función
 // Es normal decir que "llamamos una funcion" en lugar de decir "Invocamos una funcion", sin embargo la correcta es invocar.
 // Tambien podemos llamarlo "ejecutar una funcion", "correr una funcion" pero la correcta sigue siendo "Invocar"
-/*
+
 // Ejemplo
 
 function suma(a, b){
@@ -104,7 +104,7 @@ window.suma(2,2); // Va a devolver 4
 // El objeto global o mejor conocido como "this"
 /* THIS es el dueño de todo el codigo JS que ejecutes en el navegador */
 
-/*
+
 let x1 = unaFuncion();
 
 function unaFuncion() {
@@ -117,7 +117,7 @@ function unaFuncion() {
 
 console.log(this.primerNumero); // Esto devuelve 2
 console.log(primerNumero); // NaN porque es local o "undefined"
-*/
+
 // Las funciones se pueden definir con parametros e invocar parametro especifico.
 
 function elConstructor(arg1, arg2){
