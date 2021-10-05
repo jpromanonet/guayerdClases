@@ -100,3 +100,19 @@ suma(2, 2); // Va a devolver 4
 // Podemos invocar una funcion desde una funcion mayor.
 
 window.suma(2,2); // Va a devolver 4
+
+// El objeto global o mejor conocido como "this"
+/* THIS es el dueño de todo el codigo JS que ejecutes en el navegador */
+
+let x1 = unaFuncion();
+
+function unaFuncion() {
+    let primerNumero = 12;
+    let segundoNumero = 10;
+    this.primerNumero = 2;
+    primerNumero = 15;
+    return this.primerNumero + segundoNumero
+}
+
+console.log(this.primerNumero); // Esto devuelve 2
+console.log(primerNumero); // NaN porque es local o "undefined"
