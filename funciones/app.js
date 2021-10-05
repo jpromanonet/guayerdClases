@@ -57,9 +57,13 @@ let hola = saludar();
 // Arrow functions o "Funciones Flechas"
 
 // ES5 (forma vieja de declarar una función)
-var x = function(x, y){
+var x = 1;
+
+function test(x, y){
     return x * y;
 }
+
+test(2, 3);
 
 // ES6 (Forma nueva de declarar una funcion o arrow functions)
 const x = (x, y) => x * y;
@@ -76,3 +80,5 @@ const x = (x, y) => {
 2. No tienen que intentar validar el tipo de dato de un parametro
 3. Tener en cuenta que las funciones no checkean si se paso el parametro, cuando declaramos un parametro pero no utilizamos, al ejecutar la funcion, nos va a dar un error conocido como "missing argument" o "argumento perdido" en español.
 */
+
+// Invocaciones de funciones en JS
