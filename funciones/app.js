@@ -1,7 +1,7 @@
 // Hay 2 formas de declarar una función
 
 // Definiendo una funcion (No se ejecuta inmediatamente)
-/*function multiplicacion(a, b) {
+function multiplicacion(a, b) {
     let c = a * b;
     alert(c);
     c = a + b;
@@ -10,7 +10,7 @@
     alert(c)
     c = a / b;
     alert(c)
-}*/
+}
 
 // Declarando una funcion como expresion (se ejecuta inmediatamente)
 //const x = function(a,b){return a * b}
@@ -19,7 +19,7 @@
 let primerNumero = prompt("Introduce un numero");
 let segundoNumero = prompt("Introduce otro numero")
 
-//multiplicacion(parseInt(primerNumero),parseInt(segundoNumero));
+multiplicacion(parseInt(primerNumero),parseInt(segundoNumero));
 
 // Declarar funciones con el constructor
 const miFuncion = new Function("a", "b", "console.log(a * b)");
