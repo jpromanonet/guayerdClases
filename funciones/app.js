@@ -83,3 +83,20 @@ const x = (x, y) => {
 
 // Invocaciones de funciones en JS
 
+// El codigo dentro de una funcion cuando esta definida por defecto no se ejecuta.
+// El codigo es ejecutado cuando invocamos a la función
+// Es normal decir que "llamamos una funcion" en lugar de decir "Invocamos una funcion", sin embargo la correcta es invocar.
+// Tambien podemos llamarlo "ejecutar una funcion", "correr una funcion" pero la correcta sigue siendo "Invocar"
+
+// Ejemplo
+
+function suma(a, b){
+    return a + b;
+}
+
+// Invocacion
+suma(2, 2); // Va a devolver 4
+
+// Podemos invocar una funcion desde una funcion mayor.
+
+window.suma(2,2); // Va a devolver 4
