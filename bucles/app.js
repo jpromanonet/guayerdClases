@@ -1,10 +1,10 @@
 // Bucle FOR
 
-/*alert("Esto el alert 1");
+alert("Esto el alert 1");
 alert("Esto el alert 2");
 alert("Esto el alert 3");
 alert("Esto el alert 4");
-alert("Esto el alert 5");*/
+alert("Esto el alert 5");
 
 // Hacemos lo mismo pero usando un FOR
 
