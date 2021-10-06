@@ -10,7 +10,6 @@ alert("Esto el alert 5");
 
 // Usamos VAR
 
-
 for(var i = 1; i < 6; i++) {
     alert("Esto es el alert " + i);
 }
