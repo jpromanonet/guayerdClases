@@ -29,6 +29,8 @@ if(edad !== 27){
 }
 
 // SWITCH
+
+
 var day;
 day = prompt("¿Que dia de la semana buscas? (Usa numeros del 1 al 7, 1 representa el Domingo)");
 
@@ -58,6 +60,20 @@ switch(day){
         alert("Solo son validos dias del 1 al 7");
         break;
 }
+
+
+
+const color = prompt("Ingrese el nombre de un color"); 
+let resultado = ""; 
+
+switch(color){ 
+    case "blanco": resultado = "#F8F8FF"; break; 
+    case "negro": resultado = "#000000"; break; 
+    case "rojo": resultado = "#8B0000"; break; 
+    case "azul": resultado = "#0000FF"; break; 
+    default: resultado = "No encontramos el color..."; 
+} 
+alert(resultado); 
 
 /*
 
