@@ -90,7 +90,8 @@ console.log(frutas)
 // delete nombrearray[posicion que quiero eliminar]
 
 console.log(frutas[23]);
-delete frutas[23];
+delete frutas[23]; // Delete funciona posicion a posicion
+delete frutas[22];
 console.log(frutas[23]);
 
 // El metodo splice se utiliza para eliminar datos de un array por posiciones
@@ -102,17 +103,17 @@ console.log(ejemplo[2]);
 
 console.log(frutas[0][0])
 
-frutas.splice(0, 1);
+frutas.splice(23);
 console.log(frutas)
 
 // Como fusionar Arrays =)
 const verduras = ["Lechuga", "Papa", "Rucula", "Cebolla", "Cebolla de verdeo", "Puerro", "Morron", "Repollo", "Kale", "Perejil", "Ajo", "Acelga", "Espinaca", "Mandioca", "Batata", "Zanahoria", "Radicheta", "Coliflor", "Brocoli", "Zapallo anco", "Zuccini", "Calabaza", "Pepino", "Zapallito", "Remolacha", "Choclo", "esparragos", "calabacin", "cebolla morada", "boñiato", "Nabo", "Albahaca"]
 
 // El metodo concat sirve para fusionar o mergear dos o mas arrays
-// const variable = array.concat(array a fusionar)
+const variable = array.concat("Array a fusionar")
 
 //const todosLosArrays = frutas.concat(verduras);
-//console.log(todosLosArrays);
+console.log(todosLosArrays);
 
 const todosLosArrays = frutas.concat(verduras, bicicletas, autos, autos2)
 console.log(todosLosArrays)
@@ -139,7 +140,6 @@ console.log(edades)
 // El metodo Fisher Yates =)
 const fisherYates = [20, 20, 22, 28, 50, 100, 120, 333, 666, 777, 888, 12, 763, 7891, 75, 99, 45, 32, 27, 35, 20, 20, 32]
 
-/*
 for (let i = fisherYates.length -1; i > 0; i--){
     // el metodo floor en Math se utiliza para redondear numeros flotante a enteros
     let j = Math.floor(Math.random() * i);
@@ -149,17 +149,17 @@ for (let i = fisherYates.length -1; i > 0; i--){
 }
 
 console.log(fisherYates)
-*/
+
 
 // Encontrar el valor mas alto y mas bajo de un array
 
 // El valor minimo dentro de un array
-// fisherYates.sort(function(a, b){return a -b});
-// console.log(fisherYates[0]);
+fisherYates.sort(function(a, b){return a -b});
+console.log(fisherYates[0]);
 
 // El valor maximo de un array
-// fisherYates.sort(function(a, b){return b -a});
-// console.log(fisherYates[0]);
+fisherYates.sort(function(a, b){return b -a});
+console.log(fisherYates[0]);
 
 // Metodos alternativos para encontrar el valor maximo de un Array =)
 
