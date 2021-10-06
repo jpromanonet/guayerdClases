@@ -30,7 +30,7 @@ if(edad !== 27){
 
 // SWITCH
 var day;
-day = prompt("¿Que dia de la semana buscas?");
+day = prompt("¿Que dia de la semana buscas? (Usa numeros del 1 al 7, 1 representa el Domingo)");
 
 switch(day){
     case "1":
