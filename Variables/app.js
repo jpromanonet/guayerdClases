@@ -59,9 +59,9 @@ NaN = Not a Number (No es un numero)
 var numeroExperimental = 20;
 console.log(Math.pow(numeroExperimental, 3));
 console.log(Math.round(1.77777777777));
-console.log(Math.round(Math.random()*1000));
-numeroExperimental = 10;
-console.log(numeroExperimental);
+console.log(Math.round(Math.random() * 1000));
+// numeroExperimental = 10;
+// console.log(numeroExperimental);
 
 // Numeros aleatorios limitados
 function numeroAleatorioVectorizado(min, max){

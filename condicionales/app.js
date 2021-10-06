@@ -1,4 +1,4 @@
-/*
+
 let edad;
 let siFuma;
 
@@ -27,7 +27,6 @@ if(parseInt(edad) >= 18 && siFuma === true ){
 if(edad !== 27){
     alert("No perteneces al club de los 27");
 }
-*/
 
 // SWITCH
 var day;
