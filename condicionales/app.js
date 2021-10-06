@@ -2,7 +2,7 @@
 let edad;
 let siFuma;
 
-edad = prompt('¿Que edad tenes?');
+edad = 18;
 siFuma = confirm('¿Sos fumador?');
 
 // ESTO ES UNA CONDICION
