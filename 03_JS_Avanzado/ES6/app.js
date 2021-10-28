@@ -1,4 +1,4 @@
-/*// La declaracion de variables, se dejo de lado VAR para usar LET y CONST
+// La declaracion de variables, se dejo de lado VAR para usar LET y CONST
 
 // antes
 var x = 10;
@@ -54,7 +54,7 @@ for (let x of lenguaje){
     texto += x + " ";
     console.log(texto)
 }
-*/
+
 // Map
 
 // Creamos 2 objetos
