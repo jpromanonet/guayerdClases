@@ -61,7 +61,17 @@ for (let x of lenguaje){
 const manzanas = {nombre: 'Manzanas'}
 const naranjas = {nombre: 'Naranjas'}
 
-// Creamos un nuevo mapa
+// Creamos un nuevo mapa y nos evitamos hacer Arrays multidimensionales
 const frutas = new Map();
 
-console.log(frutas)
+frutas.set(manzanas, 500)
+frutas.set(naranjas, 1000)
+
+for(let x of frutas){
+    manzanas += x + " ";
+    if(frutas.manzanas >= 500){
+        console.log("No tenes suficientes manzanas");
+    }
+}
+
+// Queda pendiente: Objetos, clases, constructor, metodos propios de ES6
