@@ -24,3 +24,10 @@ function validateForm(){
         return false;
     }
 }
+
+// Estilos con el DOM
+document.getElementById("fecha").style.background="lightblue";
+
+function cambiarColor(){
+    document.getElementById("color").style.background="lightgreen"
+}
