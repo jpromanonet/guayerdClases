@@ -1,0 +1,19 @@
+#miAnimacion {
+    margin: 25px;
+    width: 550px;
+    height: 100px;
+    background: orange;
+    position: relative;
+    font-size: 20px;
+}
+
+/* Chrome, Safari y Opera */
+@-webkit-keyframes mymove {
+    from { top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
