@@ -18,6 +18,8 @@ $(function(){
         }
     })
 
+    Listar(tbContactos);
+
     $("#tblListar").on("click", ".btnEditar", function(){
         operacion = "E";
         indice_seleccionado = parseInt($(this).attr("alt"));
@@ -85,7 +87,7 @@ function Listar(tbContactos){
     for(var i in tbContactos){
         var cli = JSON.parse(tbContactos[i]);
         $("#tblListar tbody").append("<tr>");
-        $("#tblListar tbody").append("<td><img src='./img/edit.png' alt='"+i+"'class='btnEditar'/><img src='./img/delete.png' alt='"+i+"' class='btnExcluir'/></td>");
+        $("#tblListar tbody").append("<td><img src='./img/edit.png' width='30px' height='30px' alt='"+i+"'class='btnEditar'/><img src='./img/delete.png' width='30px' height='30px' alt='"+i+"' class='btnExcluir'/></td>");
         $("#tblListar tbody").append("<td>"+cli.Codigo+"</td>");
         $("#tblListar tbody").append("<td>"+cli.Nombre+"</td>");
         $("#tblListar tbody").append("<td>"+cli.Telefono+"</td>");
