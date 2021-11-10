@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validaciones en JS</title>
+</head>
+<body>
+    <!-- Validando campos texto -->
+    <h2>Validando campos texto</h2>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        Nombre: <input type="text" name="nombre">
+        <input type="submit" value="Enviar">
+        <p id="validacion"></p>
+    </form>
+
+    <!-- Validando campos de numericos -->
+    <h2>Validando campos numericos</h2>
+    <input id="number">
+    <button type="button" onclick="numbers()">Submit</button>
+    <p id="validacionNumero"></p>
+    <!-- Custom scripts -->
+    <script src="./app.js"></script>
+</body>
+</html>
