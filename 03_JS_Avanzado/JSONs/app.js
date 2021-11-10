@@ -24,3 +24,4 @@ const bicicleta = {
 document.getElementById("valoresBici").innerHTML = "Color: " + bicicleta.color;
 document.getElementById("valoresBici2").innerHTML = "Marca: " + bicicleta.marca;
 document.getElementById("valoresBici3").innerHTML = "Rodado: " + bicicleta.rodado;
+
